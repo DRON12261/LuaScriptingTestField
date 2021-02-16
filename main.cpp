@@ -6,17 +6,19 @@ extern "C" {
 }
 #include <LuaBridge.h>
 
-using namespace luabridge;
+void printMessage(const std::string& s) {
+    std::cout << s << std::endl;
+}
 
 int main() {
     lua_State* L = luaL_newstate();
     luaL_dofile(L, "LuaScripts/testScript.lua");
     luaL_openlibs(L);
     lua_pcall(L, 0, 0, 0);
-    LuaRef s = getGlobal(L, "testString");
-    LuaRef n = getGlobal(L, "number");
-    std::string luaString = s.cast<std::string>();
-    int answer = n.cast<int>();
-    std::cout << luaString << std::endl;
-    std::cout << "And here's our number:" << answer << std::endl;
+
+    luabridge::getGlobalNamespace(L).beginNamespace("game").addFunction("printMessage", printMessage).endNamespace();
+
+    luabridge::LuaRef sumNumbers = luabridge::getGlobal(L, "sumNumbers");
+    int result = sumNumbers(5, 4);
+    std::cout << "Result:" << result << std::endl;
 }
