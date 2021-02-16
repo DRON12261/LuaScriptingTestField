@@ -1,0 +1,108 @@
+# depslib dependency file v1.0
+1613466127 source:c:\projects\codeblocks projects\luascripting\main.cpp
+	<iostream>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<LuaBridge.h>
+
+1613464140 c:\projects\codeblocks projects\luascripting\lua\lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1613464140 c:\projects\codeblocks projects\luascripting\lua\luaconf.h
+	<limits.h>
+	<stddef.h>
+	<stdint.h>
+	<assert.h>
+
+1613464140 c:\projects\codeblocks projects\luascripting\lua\lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"lua.h"
+
+1613464140 c:\projects\codeblocks projects\luascripting\lua\lualib.h
+	"lua.h"
+
+1613465948 c:\projects\codeblocks projects\luascripting\luabridge\luabridge.h
+	<LuaBridge/detail/LuaHelpers.h>
+	<LuaBridge/detail/TypeTraits.h>
+	<LuaBridge/detail/TypeList.h>
+	<LuaBridge/detail/FuncTraits.h>
+	<LuaBridge/detail/Constructor.h>
+	<LuaBridge/detail/ClassInfo.h>
+	<LuaBridge/detail/LuaException.h>
+	<LuaBridge/detail/LuaRef.h>
+	<LuaBridge/detail/Iterator.h>
+	<LuaBridge/detail/Userdata.h>
+	<LuaBridge/detail/CFunctions.h>
+	<LuaBridge/detail/Security.h>
+	<LuaBridge/detail/Stack.h>
+	<LuaBridge/detail/Namespace.h>
+
+1613465949 c:\projects\codeblocks projects\luascripting\luabridge\luabridge\detail\luahelpers.h
+	<cassert>
+
+1613465949 c:\projects\codeblocks projects\luascripting\luabridge\luabridge\detail\typetraits.h
+	<LuaBridge/detail/Config.h>
+	<string>
+
+1613465949 c:\projects\codeblocks projects\luascripting\luabridge\luabridge\detail\config.h
+
+1613465949 c:\projects\codeblocks projects\luascripting\luabridge\luabridge\detail\typelist.h
+	<LuaBridge/detail/Config.h>
+	<LuaBridge/detail/Stack.h>
+	<string>
+	<typeinfo>
+
+1613465949 c:\projects\codeblocks projects\luascripting\luabridge\luabridge\detail\stack.h
+	<LuaBridge/detail/LuaHelpers.h>
+	<LuaBridge/detail/Userdata.h>
+	<string>
+
+1613465949 c:\projects\codeblocks projects\luascripting\luabridge\luabridge\detail\userdata.h
+	<LuaBridge/detail/ClassInfo.h>
+	<cassert>
+	<stdexcept>
+
+1613465949 c:\projects\codeblocks projects\luascripting\luabridge\luabridge\detail\classinfo.h
+
+1613465949 c:\projects\codeblocks projects\luascripting\luabridge\luabridge\detail\functraits.h
+	<LuaBridge/detail/Config.h>
+	<functional>
+
+1613465949 c:\projects\codeblocks projects\luascripting\luabridge\luabridge\detail\constructor.h
+
+1613465949 c:\projects\codeblocks projects\luascripting\luabridge\luabridge\detail\luaexception.h
+	<exception>
+	<string>
+
+1613465949 c:\projects\codeblocks projects\luascripting\luabridge\luabridge\detail\luaref.h
+	<LuaBridge/detail/LuaException.h>
+	<LuaBridge/detail/Stack.h>
+	<iostream>
+	<string>
+	<vector>
+	<map>
+
+1613465949 c:\projects\codeblocks projects\luascripting\luabridge\luabridge\detail\iterator.h
+	<LuaBridge/detail/LuaRef.h>
+	<utility>
+
+1613465949 c:\projects\codeblocks projects\luascripting\luabridge\luabridge\detail\cfunctions.h
+	<LuaBridge/detail/Config.h>
+	<LuaBridge/detail/FuncTraits.h>
+	<string>
+
+1613465949 c:\projects\codeblocks projects\luascripting\luabridge\luabridge\detail\security.h
+
+1613465949 c:\projects\codeblocks projects\luascripting\luabridge\luabridge\detail\namespace.h
+	<LuaBridge/detail/Config.h>
+	<LuaBridge/detail/ClassInfo.h>
+	<LuaBridge/detail/LuaException.h>
+	<LuaBridge/detail/Security.h>
+	<LuaBridge/detail/TypeTraits.h>
+	<stdexcept>
+	<string>
+
